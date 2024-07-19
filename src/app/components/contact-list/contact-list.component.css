@@ -1,0 +1,16 @@
+/* contact-list.component.css */
+
+table {
+    width: 100%;
+  }
+  
+  mat-card {
+    margin: 20px;
+  }
+  
+  mat-card-content {
+    padding: 0;
+  }
+
+ 
+  

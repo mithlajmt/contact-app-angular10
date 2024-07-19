@@ -1,0 +1,18 @@
+<!-- contact-list.component.html -->
+
+<div class="container">
+    <h1 class="title">Contact List</h1>
+    <div class="contact-list">
+      <div class="contact-item" *ngFor="let contact of contacts">
+        <div class="contact-info">
+          <p><strong>Name:</strong> {{ contact.name }}</p>
+          <p><strong>Number:</strong> {{ contact.number }}</p>
+        </div>
+        <div class="contact-actions">
+          <button (click)="editContact(contact.id)" class="btn btn-edit">Edit</button>
+          <button (click)="deleteContact(contact.id)" class="btn btn-delete">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
